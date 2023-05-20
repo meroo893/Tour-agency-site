@@ -1,0 +1,58 @@
+<html>
+	<head>
+	<title>		</title>
+	<meta charset="utf-8">
+	<style>
+	/* dvoen bg */
+	body{
+	background-image:url(bg1.jpg),url(bg2.jpg);
+	background-repeat:repeat-x, repeat;
+	}
+	/* blok us sqnka */
+	#block{
+	position:relative;
+	width:400px;
+	height:200px;
+	margin:550px auto;
+	text-align:center;
+	background-color:cyan;
+	border-radius:20px 0;
+	border-right:1px solid black;
+	border-bottom:1px solid black;
+	box-shadow: 20px 20px 20px black;
+	webkit-transition:0.6s;
+	-moz-transition:0.6s;
+	-o-transition:0.6s;
+	
+	}
+	 
+	 
+	/*	animirane na blok	*/
+	#block:hover{
+	transform:rotate(9deg);
+	webkit-transform:rotate(9deg);
+	-moz-transform:rotate(9deg);
+	-o-transform:rotate(9deg);
+	transition:1s;
+	-moz-transition:1s;
+	webkit-transition:1s;
+	-o-transition:1s;
+	
+	box-shadow: 13px 13px 13px;
+	}
+	
+	/*	klikvane na blok sus sqnka	*/
+	#block:active{
+	-moz-transform:translate(2px,-50px);
+	}
+	
+	
+	
+	</style>
+	</head>
+	<body>
+		<div id="block">
+			blok
+		</div>
+	</body>
+</html>
